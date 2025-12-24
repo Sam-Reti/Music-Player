@@ -36,6 +36,8 @@ function reset() {
   song.currentTime = 0;
   progress.value = song.currentTime;
   song.pause();
+  crtlIcon.classList.remove("fa-pause");
+  crtlIcon.classList.add("fa-play");
 }
 
 //AI Generated Snow Fall
